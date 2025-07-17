@@ -58,12 +58,14 @@ body{
 }
 .search2{
     margin-left: 10px !important;
-    background-color:  rgb(103, 185, 239) !important ;
+/*     background-color:  rgb(103, 185, 239) !important ; */
+     background-color:  rgb(94, 122, 141) !important ;
     color: white !important;
 }
 .login{
      margin-left: 3px !important;
-      background-color:  rgb(103, 185, 239) !important ;
+/*       background-color:  rgb(103, 185, 239) !important ; */
+     background-color:  rgb(94, 122, 141) !important ;
     color: white !important;
 }
 .style{
@@ -389,7 +391,10 @@ padding-top: 30px;
     background-color: rgb(244, 246, 246);
     padding-bottom: 20px;
 }
-
+.hav{
+    position: relative;
+    z-index: 1;
+}
 .hav::after{
     content: "";
     position: absolute;
