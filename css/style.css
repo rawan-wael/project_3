@@ -916,7 +916,7 @@ body {
 
 @media (max-width: 768px) {
   .bigdiv {
-    height: auto;
+    height: 50%;
     padding: 20px;
   }
 
