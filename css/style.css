@@ -1157,6 +1157,59 @@ body {
 .carousel-caption{
     height: 30% !important;
 }
+//////*  */
 
+.d1, .d2, .cc {
+  width: 100%;
+  max-width: 1510px;
+  margin: auto;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
 
+.podcast-image {
+  width: 100%;
+  height: auto;
+}
 
+.navbar .container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navbar-brand {
+  flex: 1 1 auto;
+}
+.navbar-nav, .form-control, .search2, .login {
+  flex: 1 1 100%; /* يشغل عرض الشاشة */
+}
+
+@media (max-width: 768px) {
+  .search1, .search2, .login {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .Popular button, .Popular1 button {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .carousel-caption {
+    padding: 15px;
+    font-size: 16px;
+  }
+  .podcast-section {
+    padding: 10px;
+  }
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Popular, .Popular1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
