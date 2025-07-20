@@ -919,7 +919,8 @@ body {
     height: 50%;
     padding: 20px;
   }
-
+.pdivsmall{
+    font-size:18px;}
   .translate {
     width: 100%;
     margin-left: 0;
