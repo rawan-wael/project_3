@@ -1158,58 +1158,61 @@ body {
     height: 30% !important;
 }
 //////*  */
-
-.d1, .d2, .cc {
-  width: 100%;
-  max-width: 1510px;
-  margin: auto;
-}
-.carousel-item img {
-  width: 100%;
-  height: auto;
-}
-
-.podcast-image {
-  width: 100%;
-  height: auto;
-}
-
-.navbar .container-fluid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.navbar-brand {
-  flex: 1 1 auto;
-}
-.navbar-nav, .form-control, .search2, .login {
-  flex: 1 1 100%; /* يشغل عرض الشاشة */
-}
-
+/* ✅ Responsive Fixes */
 @media (max-width: 768px) {
-  .search1, .search2, .login {
-    width: 100%;
-    margin: 10px 0;
+  html, body {
+    overflow-x: hidden;
   }
-  .Popular button, .Popular1 button {
-    width: 100%;
-    margin: 10px 0;
+
+  .d1, .d2, .cc, .Popular, .Popular1, .carousel-inner, .podcast-section {
+    width: 100% !important;
+    padding: 10px;
+    box-sizing: border-box;
   }
+
+  .carousel-item img,
+  .podcast-image,
+  .podcast-section img,
+  .social-icons img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .search1, .search2, .login, .form-control {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  .navbar .container-fluid,
+  .navbar-nav {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    width: 100%;
+  }
+
   .carousel-caption {
-    padding: 15px;
+    font-size: 14px !important;
+    padding: 10px !important;
+  }
+
+  .accordion-button {
     font-size: 16px;
   }
-  .podcast-section {
-    padding: 10px;
+
+  .Popular button,
+  .Popular1 button {
+    width: 100% !important;
+    margin: 10px 0;
   }
-}
-.social-icons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.Popular, .Popular1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .social-icons img {
+    max-width: 40px;
+  }
 }
