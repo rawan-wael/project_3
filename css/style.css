@@ -903,10 +903,11 @@ body {
     
   }
    */
-  .search1,
+  .search1{
+      width:70%}
   .search2,
-  .search1 {
-    width: 40% !important;
+  .login {
+    width: 20% !important;
     margin-left: 100px !important;
    
     margin: 10px 0 !important;
@@ -1110,15 +1111,16 @@ body {
     align-self: flex-end; 
     margin-top: 100px !important;
 }
- .search1,
+.search1{
+    width:70% !important}
   .search2,
-  .search1 {
+  .login {
     width: 40% !important;
     margin-left: 100px !important;
    
     margin: 10px 0 !important;}
     .sec2{
-        hight:300px}
+        hight:300px !important}
     
 } 
 
