@@ -906,7 +906,7 @@ body {
   .search1,
   .search2,
   .search1 {
-    width: 30% !important;
+    width: 40% !important;
     margin-left: 100px !important;
    
     margin: 10px 0 !important;
@@ -1009,7 +1009,7 @@ body {
     align-items: center;
 /*     padding-top: 2px !important;
     margin-bottom: 10px !important; */
-    width: 30% !important;
+    width: 40% !important;
 
 }
 .btn2{
