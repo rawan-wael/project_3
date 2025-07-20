@@ -1019,7 +1019,7 @@ body {
     
 }
     .social-icons{
-        margin-right:700px}
+        margin-right:-700px}
 .p2{
     font-size: 18px !important;
     margin-right: 30px !important;
@@ -1115,7 +1115,7 @@ body {
     width:50% !important}
   .search2,
   .login {
-    width: 40% !important;
+    width: 30% !important;
     margin-left: 100px !important;
    
     margin: 10px 0 !important;}
